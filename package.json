@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "Mehul Srivastava",
   "license": "ISC",
-  "type": "module"
+  "type": "commonjs"
 }

@@ -1,4 +1,4 @@
-import fs from 'fs'
+const fs = require('fs')
 const fileName = 'test.txt'
 console.log("Creating File...")
 fs.writeFile(fileName, "Hello Node.js", (err) => {

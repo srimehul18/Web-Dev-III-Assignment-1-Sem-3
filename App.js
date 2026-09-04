@@ -1,5 +1,5 @@
-import {isEven} from "./Modules/IsEven.js"
-import {logger} from "./Modules/logger.js"
+const { isEven } = require('./Modules/IsEven.js')
+const { logger } = require('./Modules/logger.js')
 logger("Application Started")
 let numbers = [10, 15, 20, 25]
 numbers.forEach((number) => {
